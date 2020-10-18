@@ -84,19 +84,19 @@ public class Customer{
     for(int i=0;i<accounts.length;i++){
       if(accounts[i] instanceof Checking){
         if(type.equals("Checking")){
-          System.out.println(accounts[i].getBalance());
+          System.out.println("You have "+accounts[i].getBalance()+" currently in your "+type+" account");
           return;
         }
       }
       if(accounts[i] instanceof Savings){
         if(type.equals("Savings")){
-          System.out.println(accounts[i].getBalance(r));
+          System.out.println("You have "+accounts[i].getBalance(r)+" currently in your "+type+" account");
           return;
         }
       }
       if(accounts[i] instanceof CD){
         if(type.equals("CD")){
-          System.out.println(accounts[i].getBalance(r));
+          System.out.println("You have "+accounts[i].getBalance(r)+" currently in your "+type+" account");
           return;
         }
       }
