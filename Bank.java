@@ -1,5 +1,5 @@
-/*Sami Elsaeyed 05/11/2020 CISC 3115 Homework 3 
- * Thid is the Bank class which implements the banlmenun and all the other classes. 
+/*Sami Elsaeyed 05/11/2020 Bank Project 
+ * This is the Bank class which implements the bank menu and all the other classes. 
  * the main method simply creates one Bank.
   */
 import java.util.*;
